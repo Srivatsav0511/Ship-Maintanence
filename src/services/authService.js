@@ -4,25 +4,11 @@
 const users = [
   {
     id: 1,
-    email: 'admin@entnt.in',
+    email: 'admin@gmail.com',
     password: 'admin123',
     role: 'admin',
     name: 'Srivatsav Admin'
   },
-  {
-    id: 2,
-    email: 'inspector@entnt.in',
-    password: 'inspector123',
-    role: 'inspector',
-    name: 'Srivatsav Inspector'
-  },
-  {
-    id: 3,
-    email: 'engineer@entnt.in',
-    password: 'engineer123',
-    role: 'engineer',
-    name: 'Srivatsav Engineer'
-  }
 ];
 
 class AuthService {
